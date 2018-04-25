@@ -1,0 +1,144 @@
+.content1{
+    background-color: #CFE0E4;
+    height: 100%;
+}
+.section2{
+    background-color: rgb(182, 65, 65);
+}
+
+.banner-title1{
+    color: white;
+    font-size: 100px;
+    margin-top:100px;
+    margin-left:120px;
+    font-weight: 900;
+    /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.74); */
+}
+.banner-title2{
+    color: white;
+    font-size: 36px;
+    margin-top:120px;
+    margin-left:30px;
+    /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.74); */
+}
+
+
+
+.top2-youtuber-name-text{
+
+    position: absolute;
+
+    margin:0 auto;
+
+    width:135px;
+
+    text-align: center;
+
+    top:280px;
+
+    font-weight: 200;
+
+    color:rgb(92, 92, 92);
+}
+.youtuber-img{
+
+    position: absolute;
+
+    margin:0 auto;
+
+    align-content: center;
+
+    padding-bottom: 0 !important;
+}
+
+.top2-youtuber-img{
+
+    position: absolute;
+
+    margin:0 auto;
+
+    top:128.5px;
+
+    align-content: center;
+
+}
+.margin{
+
+    margin-bottom: 0px !important;
+
+}
+.btn{
+    position: relative;
+    padding-top:150px !important;
+    padding-left:40px !important;
+}
+
+.btn-watch-top-100-youtuber {
+    font-size: 60;
+    position: absolute;
+    bottom: 100px;
+    border: 2px solid #DEA7AA;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 30px 140px;
+    cursor: pointer;
+}
+.btn-watch-top-100-youtuber:hover{
+    color: white;
+    background: #DEA7AA;
+}
+
+.btn2-watch-top-100-youtuber {
+    font-size: 60;
+    position: absolute;
+    bottom: 100px;
+    border: 2px solid #005f6b;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 30px 140px;
+    cursor: pointer;
+}
+.btn2-watch-top-100-youtuber:hover{
+    color: white;
+    background: #005f6b;
+}
+.btn3-watch-top-100-youtuber {
+    font-size: 60;
+    position: absolute;
+    bottom: 100px;
+    border: 2px solid #274c5e;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 30px 140px;
+    cursor: pointer;
+}
+
+.btn3-watch-top-100-youtuber:hover{
+    color: white;
+    background: #274c5e;
+}
+
+.content2{
+    background-color: #A5D6FD !important;
+    height: 100%;
+}
+
+.bg-color2{
+    background-color: #A5D6FD !important;
+}
+
+.content3{
+    background-color: #CDC7C9 !important;
+    height: 100%;
+}
+.bg-color3{
+    background-color: #CDC7C9 !important;
+}
+.content4{
+    background-color: #FEFFFB !important;
+    height: 100%;
+}
+.bg-color4{
+    color: #274c5e !important ;
+    background-color: #FEFFFB !important;
+}

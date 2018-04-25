@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>最新消息</title>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body>
+    <header class="news-header">
+        <nav class="uk-container uk-container-large">
+            <div class="nav-logo to-home"></a></div>
+            <div class="nav-bar">
+                <ul class="uk-visible@m">
+                    <li class="to-home">　首頁　</li>
+                    <li class="to-news">最新消息</li>
+                    <li>人氣排行</li>
+                    <li>影片排行</li>
+                    <li>　投票　</li>
+                    <li>周邊商品</li>
+                </ul>
+                <a class="btn-nav-toggle uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#"></a>
+                
+            </div>
+            
+        </nav>
+        <ul class="nav-bar-sm hidden">
+            <li class="to-home">　首頁　</li>
+            <li class="to-news">最新消息</li>
+            <li>人氣排行</li>
+            <li>影片排行</li>
+            <li>　投票　</li>
+            <li>周邊商品</li>
+        </ul>
+    </header>
+    <section class="news wow fadeIn">
+        <div uk-slider="clsActivated: uk-transition-active;
+                        center: true;autoplay:true;
+                        autoplay-interval:6000;
+                        ">
+            <div class="uk-position-relative uk-light" >
+                <ul class="uk-slider-items uk-grid">
+                    <li class="uk-width-3-4@m uk-width-1-1@s uk-width-1-1 news-card">  
+                        <div class="uk-panel">
+                            <img class="uk-transition-scale-down uk-transition-opaque"  src="./images/img_news_1.jpg" alt="" >
+                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">剖析《七月半》：先養粉絲，再玩團的時代來了？</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4@m uk-width-1-1@s uk-width-1-1 news-card">
+                        <div class="uk-panel">
+                            <img class="uk-transition-scale-down uk-transition-opaque" src="./images/img_news_2.jpg" alt="">
+                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">穩交4年！鄧福如首談「婚事」　羞認和網紅男友「有避孕」</h3>
+                                <!-- <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4@m uk-width-1-1@s uk-width-1-1 news-card uk-transition-toggle">
+                        <div class="uk-panel">
+                            <img class="uk-transition-scale-down uk-transition-opaque" src="./images/img_news_3.jpg" alt="">
+                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">網紅呱吉宣布無黨參選北市議員 誓言打倒「國民黨5個老白痴」</h3>
+                                <!-- <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4@m uk-width-1-1@s uk-width-1-1 news-card uk-transition-toggle">
+                        <div class="uk-panel">
+                            <img class="uk-transition-scale-down uk-transition-opaque" src="./images/img_news_4.jpg" alt="">
+                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">台灣最夯YouTuber「這群人」！聖結石、放火都輸了</h3>
+                                <!-- <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4@m uk-width-1-1@s uk-width-1-1 news-card uk-transition-toggle">
+                        <div class="uk-panel">
+                            <img class="uk-transition-scale-down uk-transition-opaque" src="./images/img_news_5.jpg" alt="">
+                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                                <h3 class="uk-margin-remove">滴妹是假的！　阿滴公開道歉坦承騙了三年</h3>
+                                <!-- <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                
+            </div>
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        </div>
+    </section>
+    <section class="video-category">
+        <div class="uk-container uk-container-large vertical-align">
+            <h2 class="video-category-title">影片分類</h2>
+            <div uk-grid class="wow fadeIn">
+                <div class="uk-width-1-6@m uk-width-1-2@s uk-width-1-1">
+                    <div class="video-category-card">
+                        <span class="category-name">搞笑</span>
+                        <img src="./images/img_video_category_1.png" alt="">
+                    </div>
+                </div>
+                <div class="uk-width-1-6@m uk-width-1-2@s uk-width-1-1">
+                    <div class="video-category-card">
+                        <span class="category-name">戲劇</span>
+                        <img src="./images/img_video_category_2.png" alt="">
+                    </div>
+                </div>
+                <div class="uk-width-1-6@m uk-width-1-2@s uk-width-1-1">
+                    <div class="video-category-card">
+                        <span class="category-name">知識</span>
+                        <img src="./images/img_video_category_3.png" alt="">
+                    </div>
+                </div>
+                <div class="uk-width-1-6@m uk-width-1-2@s uk-width-1-1">
+                    <div class="video-category-card">
+                        <span class="category-name">整人</span>
+                        <img src="./images/img_video_category_4.png" alt="">
+                    </div>
+                </div>
+                <div class="uk-width-1-6@m uk-width-1-2@s uk-width-1-1">
+                    <div class="video-category-card">
+                        <span class="category-name">開箱</span>
+                        <img src="./images/img_video_category_5.png" alt="">
+                    </div>
+                </div>
+                <div class="uk-width-1-6@m uk-width-1-2@s uk-width-1-1">
+                    <div class="video-category-card">
+                        <span class="category-name">遊戲</span>
+                        <img src="./images/img_video_category_6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="hot-video">
+        <div class="uk-container uk-container-large vertical-align">
+            <h2 class="video-category-title">發燒影片</h2>
+            <div uk-grid class="wow fadeIn">
+                <div class="uk-width-1-5@m uk-width-1-2@s uk-width-1-1">
+                    <div class="hot-video-card uk-card-hover uk-card-default">
+                        <div uk-lightbox>
+                            <a href="//www.youtube.com/watch?v=WTEXSN_7JAQ" data-caption="YouTube">
+                                <div class="hot-video-card-img">
+                                    <img src="./images/img_hot_video_1.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="hot-video-card-content">
+                            <h2 class="hot-video-card-title">挑戰72小時環島之旅 吃遍台灣美食『完結篇』 // 壹加壹</h2>
+                            <h3 class="hot-video-card-author"><span class="uk-badge">壹加壹 ILLY and LEAN</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-5@m uk-width-1-2@s uk-width-1-1">
+                    <div class="hot-video-card uk-card-hover uk-card-default">
+                        <div uk-lightbox>
+                            <a href="//www.youtube.com/watch?v=t5wM5M0cNDs&t=1s" data-caption="YouTube">
+                                <div class="hot-video-card-img">
+                                    <img src="./images/img_hot_video_2.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="hot-video-card-content">
+                            <h2 class="hot-video-card-title">「去你的晚餐」 #展榮展瑞│古娃娃X喵喵 這對情侶也太閃了吧！？</h2>
+                            <h3 class="hot-video-card-author"><span class="uk-badge">Keelong and Rays這群人 展榮展瑞</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-5@m uk-width-1-2@s uk-width-1-1">
+                    <div class="hot-video-card uk-card-hover uk-card-default">
+                        <div uk-lightbox>
+                            <a href="//www.youtube.com/watch?v=FIkAv-mL4kw&t=1s" data-caption="YouTube">
+                                <div class="hot-video-card-img">
+                                    <img src="./images/img_hot_video_3.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="hot-video-card-content">
+                            <h2 class="hot-video-card-title">HowHowの小廚房 / 重現彗星炒飯！</h2>
+                            <h3 class="hot-video-card-author"><span class="uk-badge">HowFun</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-5@m uk-width-1-2@s uk-width-1-1">
+                    <div class="hot-video-card uk-card-hover uk-card-default">
+                        <div uk-lightbox>
+                            <a href="//www.youtube.com/watch?v=yJTyLUHnJYY" data-caption="YouTube">
+                                <div class="hot-video-card-img">
+                                    <img src="./images/img_hot_video_4.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="hot-video-card-content">
+                            <h2 class="hot-video-card-title">蔡阿嘎突擊HowHow拍片現場！邊緣到了極點！</h2>
+                            <h3 class="hot-video-card-author"><span class="uk-badge">蔡阿嘎Life</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-5@m uk-width-1-2@s uk-width-1-1">
+                    <div class="hot-video-card uk-card-hover uk-card-default">
+                        <div uk-lightbox>
+                            <a href="//www.youtube.com/watch?v=d7U0By1Fi4k" data-caption="YouTube">
+                                <div class="hot-video-card-img">
+                                    <img src="./images/img_hot_video_5.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="hot-video-card-content">
+                            <h2 class="hot-video-card-title">【Joeman】三星寄了一台超夢幻螢幕給我！全世界最寬的曲面螢幕開箱！</h2>
+                            <h3 class="hot-video-card-author"><span class="uk-badge">Joeman</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="youtuber-intro">
+        <div class="uk-container uk-container-large vertical-align">
+            <h2 class="video-category-title">YouTuber 專欄</h2>
+            <div uk-grid class="wow fadeIn">
+                <div class="uk-width-1-2@m uk-width-1-1@s uk-width-1-1">
+                    <div class="youtuber-intro-card">
+                        <div uk-grid>
+                            <div class="uk-width-1-3@m uk-width-1-3@s uk-width-1-1">
+                                <img class="youtuber-intro-card-img" src="./images/img_youtuber_intro_1.png" alt="">
+                            </div>
+                            
+                            <div class="uk-width-2-3@m uk-width-2-3@s uk-width-1-1">
+                                <div class="youtuber-intro-card-content">
+                                    <a target="_blank" href="//www.businessweekly.com.tw/article.aspx?id=20611&type=Blog" class="youtuber-intro-card-title"><div>業配就是我的主場！專訪 HowHow 一人製片團隊</div></a>
+                                    <p class="youtuber-intro-card-p">拎著小型交通滑版，穿著「YouTube」T-shirt 和短褲匆匆忙忙地趕到星巴克，他是擁有425,500訂閱粉絲， 最熱門影片觀看次數突破200萬，每部影片觀看更落在40~50萬人次的台灣YouTuber…</p>
+                                    <p class="youtuber-intro-card-author">Mia</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="uk-width-1-2@m uk-width-1-1@s uk-width-1-1">
+                    <div class="youtuber-intro-card">
+                        <div uk-grid>
+                            <div class="uk-width-1-3@m uk-width-1-3@s uk-width-1-1">
+                                <img class="youtuber-intro-card-img" src="./images/img_youtuber_intro_2.png" alt="">
+                            </div>
+                            
+                            <div class="uk-width-2-3@m uk-width-2-3@s uk-width-1-1">
+                                <div class="youtuber-intro-card-content">
+                                    <a target="_blank" href="//www.thenewslens.com/article/92714" class="youtuber-intro-card-title">
+                                        <div>網紅「呱吉」改名「邱議員」決心參選，為何他選議員不選里長？</div> 
+                                    </a>
+                                    <p class="youtuber-intro-card-p">自從「網紅」柯文哲在2014年選上台北市長之後，網紅參政似乎成了一股新勢力，上週末「台大最狂教授」李錫錕才正式宣佈參選台北市長，昨（29）日知名YouTuber…</p>
+                                    <p class="youtuber-intro-card-author">羊正鈺</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div uk-grid class="wow fadeIn">
+                <div class="uk-width-1-2@m uk-width-1-1@s uk-width-1-1">
+                    <div class="youtuber-intro-card">
+                        <div uk-grid>
+                            <div class="uk-width-1-3@m uk-width-1-3@s uk-width-1-1">
+                                <img class="youtuber-intro-card-img" src="./images/img_youtuber_intro_3.png" alt="">
+                            </div>
+                            
+                            <div class="uk-width-2-3@m uk-width-2-3@s uk-width-1-1">
+                                <div class="youtuber-intro-card-content">
+                                    <a target="_blank" href="//www.capsulecorporation.cc/vitamin/101" class="youtuber-intro-card-title"><div>記得哦 這就是wackyboys｜《Joeman九件事》反骨男孩專訪</div></a>
+                                    <p class="youtuber-intro-card-p">有一群人，成軍五年以來，不斷以自己的方式帶給觀眾們歡樂，不但在模仿界博得響亮的名聲，無厘頭的表演風格在YouTube的眾多網紅中更是獨樹一格，許多梗甚至成為年輕一代的流行用語，他們就是…</p>
+                                    <p class="youtuber-intro-card-author">Joeman</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="uk-width-1-2@m uk-width-1-1@s uk-width-1-1">
+                    <div class="youtuber-intro-card">
+                        <div uk-grid>
+                            <div class="uk-width-1-3@m uk-width-1-3@s uk-width-1-1">
+                                <img class="youtuber-intro-card-img" src="./images/img_youtuber_intro_4.png" alt="">
+                            </div>
+                            
+                            <div class="uk-width-2-3@m uk-width-2-3@s uk-width-1-1">
+                                <div class="youtuber-intro-card-content">
+                                    <a target="_blank" href="//womany.net/read/article/14429" class="youtuber-intro-card-title"><div>我是高齡 Youtuber！專訪囧星人：「人生的意義，就是追求快樂」</div></a>
+                                    <p class="youtuber-intro-card-p">女人迷專訪，看見網紅囧星人。網紅本是白手起家，這一路，她走得忐忑也不安，直到去年才決定成為全職影音製作人的囧星人，曾經是一個不懂如何與世界溝通的孩子。尋回自己的路漫漫…</p>
+                                    <p class="youtuber-intro-card-author">女人迷編輯 Abby</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        
+    </section>
+
+    <footer class="subscribe">
+        <h1 class="subscribe-title wow tada">訂閱他們</h1>
+        <h2 class="subscribe-subtitle wow tada">subscribe</h2>
+        <div class="uk-container uk-container-large vertical-align subscribe-list">
+            <div uk-grid class="wow fadeIn">
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
+                    <a target="_blank" href="//www.youtube.com/user/e84768131">這群人TGOP</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCVwSuEeMi-w92Hx3xKfq0iw">TGOP 這群人私生活</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCeB5UXWltaHtGoxkwGXLzpg">展榮展瑞 Keelong and Rays</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCJM_OTvzTrkZbYEq4GKVuOQ">Alina鄭茵聲</a>
+                    <a target="_blank" href="//www.youtube.com/user/kyoko38">蔡阿嘎</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCeo3JwE3HezUWFdVcehQk9Q">阿滴英文</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCGpNjY0Xq2GJLXh4OOX1LOA">滴妹</a>
+                    <a target="_blank" href="//www.youtube.com/user/fuckingtinyhippo">黃大謙</a>
+                    <a target="_blank" href="//www.youtube.com/user/TheLiuPei">the劉沛</a>
+                    <a target="_blank" href="//www.youtube.com/user/jaya8831529">廉傑克曼</a>
+                    <a target="_blank" href="//www.youtube.com/user/FroggyChiu">呱吉</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCj_z-Zeqk8LfwVxx0MUdL-Q">上班不要看 NSFW</a>
+                </div>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
+                    <a target="_blank" href="//www.youtube.com/user/louislee0602">放火 Louis</a>
+                    <a target="_blank" href="//www.youtube.com/user/RSPannie72127">魚乾</a>
+                    <a target="_blank" href="//www.youtube.com/user/jasonjason1124">HowFun</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UC24h-JBUHXT5HXIK_9cWOmQ">小玉</a>
+                    <a target="_blank" href="//www.youtube.com/user/JoemanStarCraft">Joeman</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCMy0L5Y-h0-s8t4XZs49gXw">解婕翎</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCqxRJpX52Q0nxcHf7hqdJMA">可可酒精</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCUy-lBPiJYWXTvfYHiCb_-A">黑羽</a>
+                    <a target="_blank" href="//www.youtube.com/user/oeurstudiolive">Kouku阿謙</a>
+                    <a target="_blank" href="//www.youtube.com/user/tolocat">老皮</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw">曹小歐</a>
+                    <a target="_blank" href="//www.youtube.com/user/KEVIN0204660">WACKYBOYS 反骨男孩</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCqAYPUHgXuzsNlYNIzItfAQ">在不瘋狂就等死 x 狂人娛樂</a>
+                </div>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
+                    <a target="_blank" href="//www.youtube.com/user/oeurxhichocolate">巧克力</a>
+                    <a target="_blank" href="//www.youtube.com/user/MrChesterccj">舞秋風</a>
+                    <a target="_blank" href="//www.youtube.com/user/nksh20434">路（RuSiRu）</a>
+                    <a target="_blank" href="//www.youtube.com/user/RedStonePoke">紅石口袋 RedStone Poke</a>
+                    <a target="_blank" href="//www.youtube.com/user/zionx25">菜喳</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCa7KELKe1u9mQ5jWMdIB-HQ">阿晋</a>
+                    <a target="_blank" href="//www.youtube.com/user/RoyzWIND">Royz羅伊</a>
+                    <a target="_blank" href="//www.youtube.com/user/astereasy">梅伯</a>
+                    <a target="_blank" href="//www.youtube.com/user/PanHuParty">胖虎</a>
+                    <a target="_blank" href="//www.youtube.com/user/sundayright">星期天</a>
+                    <a target="_blank" href="//www.youtube.com/user/coolmantsai">蔡哥</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCIS2CbcHBbA_Z-PKJUWLWzA">麥卡貝精華頻道</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCLW_SzI9txZvtOFTPDswxqg">木曜4超玩</a>
+                </div>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
+                    <a target="_blank" href="//www.youtube.com/user/JasonXshow">星培Jasper</a>
+                    <a target="_blank" href="//www.youtube.com/user/Allen51channle">愛倫Allen</a>
+                    <a target="_blank" href="//www.youtube.com/user/chikigina">GINA HELLO!</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCIdhd_1spj49unBWx1fjS2A">聖結石Saint</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UC8MQLq2uFUa-HXHCVjHlc-Q">聖嫂Dodo</a>
+                    <a target="_blank" href="//www.youtube.com/user/mincow">古娃娃WawaKu</a>
+                    <a target="_blank" href="//www.youtube.com/user/ATienDai">白癡公主</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCeDhoBQvd33wtNXpQL-RnSw">白癡公主超哥</a>
+                    <a target="_blank" href="//www.youtube.com/user/sawgameboy">尤汐伯夷</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCmEwvn6K7ZwZMJRGtOwTABg">SnG-超哥x伯夷</a>
+                    <a target="_blank" href="//www.youtube.com/user/anjouclever">安啾咪</a>
+                    <a target="_blank" href="//www.youtube.com/user/phan11171117">鬼鬼</a>
+                    <a target="_blank" href="//www.youtube.com/user/charlie615119">阿神</a>
+                    <a target="_blank" href="//www.youtube.com/user/k9330205">蹲蹲</a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+</html>

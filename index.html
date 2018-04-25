@@ -13,35 +13,47 @@
 <body>
     <header>
         <nav class="uk-container">
-            <div class="nav-logo"><a href="./index.html"></a></div>
+            <div class="nav-logo to-home"></a></div>
             <div class="nav-bar">
-                <ul>
-                    <li>最新消息</li>
+                <ul class="uk-visible@m">
+                    <li class="to-home">　首頁　</li>
+                    <li class="to-news">最新消息</li>
                     <li>人氣排行</li>
                     <li>影片排行</li>
-                    <li>投票時間</li>
+                    <li>　投票　</li>
                     <li>周邊商品</li>
                 </ul>
+                <a class="btn-nav-toggle uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon></a>
             </div>
         </nav>
+        <ul class="nav-bar-sm hidden">
+            <li class="to-home">　首頁　</li>
+            <li class="to-news">最新消息</li>
+            <li>人氣排行</li>
+            <li>影片排行</li>
+            <li>　投票　</li>
+            <li>周邊商品</li>
+        </ul>
     </header>
-    <section class="banner outer">
-        <div class="inner">
+    <section class="banner">
+        <!-- <img class="banner-img" src="./images/banner_3.png" alt=""> -->
+        <div class="banner-content">
             <div class="wow fadeInLeft banner-title">他們的影片，你看得見</div>
             <div class="wow fadeInRight banner-subtitle">YOUTUBER'S WORLD</div>
         </div>
+        
         
     </section>
     <section class="section-01 section">
         <div class="section-title uk-text-right">
             <div class="title-text wow fadeInLeftBig">什麼是YouTuber</div>
-            <div class="title-number">
+            <div class="title-number hidden-460px">
                 <span class="title-number-one wow fadeInLeft">0</span>
                 <span class="wow fadeInUp">1</span>
             </div>
       
         </div>
-        <div class="section-content wow fadeInUp">
+        <div class="section-content wow fadeInUp uk-container-large uk-container vertical-align">
             <span><span class="big-first-word"><span class="fa fa-quote-left"></span> YOUTUBER</span>　是一個上傳影片來增加點閱率及訂閱率的職業，而隨著點閱率、訂閱率和本身 YouTuber 的知名度增加，會吸引贊助商或廣告商來尋求合作機會，而 YouTuber 便可從中獲取廣告費用，或者販賣一些有關自己的周邊商品，來增加自身的收入。</span>
             <span class="fa fa-quote-right"></span>
         </div>
@@ -49,7 +61,7 @@
     </section>
     <section class="section-02 section">
         <div class="section-title">
-            <div class="title-number">
+            <div class="title-number hidden-460px">
                 <span class="title-number-one wow fadeInLeft">0</span>
                 <span class="wow fadeInRight">2</span>
             </div>
@@ -57,28 +69,28 @@
         </div>
         <div class="section-content uk-container wow fadeInUp">
             <div class="uk-grid">
-                <div class="uk-width-1-4">
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
                     <div class="section-02-card">
                         <div class="card-img img-eyes"></div>
                         <h2 class="card-title">點閱數</h2>
                         <h3 class="card-subtitle">一點閱一世情</h3>
                     </div>
                 </div>
-                <div class="uk-width-1-4">
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
                     <div class="section-02-card">
                         <div class="card-img img-father"></div>
                         <h2 class="card-title">乾爹</h2>
                         <h3 class="card-subtitle">我贊助你啦…</h3>
                     </div>
                 </div>
-                <div class="uk-width-1-4">
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
                     <div class="section-02-card">
                         <div class="card-img img-business"></div>
                         <h2 class="card-title">葉佩雯</h2>
                         <h3 class="card-subtitle">我這裡有一個有趣的商品</h3>
                     </div>
                 </div>
-                <div class="uk-width-1-4">
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
                     <div class="section-02-card">
                         <div class="card-img img-interest"></div>
                         <h2 class="card-title">興趣</h2>
@@ -90,19 +102,16 @@
     </section>
     <section class="section section-03">
         <div class="section-title">
-            <div class="title-number">
+            <div class="title-number hidden-460px">
                 <span class="wow fadeInLeft title-number-one">0</span>
                 <span class="wow fadeInRight">3</span>
             </div>
             <div class="wow fadeInDown title-text">誰最紅？</div>
         </div>
-        <div class="section-content">
+        <div class="section-content uk-container">
             <div class="wow tada btn-watch-top-100-youtuber">點我看百大 YOUTUBER</div>
         </div>
     </section>
-    <footer>
-
-    </footer>
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/uikit.min.js"></script>

@@ -1,4 +1,8 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
+body {
+    font-family: 'Noto Sans TC' !important;
+}
 
 html,body{
     height: 100%;
@@ -6,14 +10,331 @@ html,body{
     margin: 0;
 }
 
-nav {
+header{
+    padding-top:30px;
     height: 70px;
     width: 100%;
-    background: white;
-    border-top: 1px solid red;
+    background: #ce201f;
     position: fixed;
+    z-index: 1000;
+    /* display: inline-block; */
 }
 
+.padding-zero{
+    padding : 0 !important;
+}
+
+nav {
+    margin: 0 auto;
+    /* width:100%; */
+    height: 100%;
+}
+
+.nav-logo {
+    background: url("../images/logo.png") no-repeat;
+    height: 100%;
+    width: 150px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.nav-bar{
+    float: right;
+}
+
+.nav-bar ul {
+    list-style: none;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    line-height: 70px;
+    color:white;
+    margin-right:30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.hover-wrap{
+    position: absolute;
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #e45554;
+    opacity: 0.5;
+    top:-3px;
+    left:-8px;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInHalf;
+}
+
+.hover-wrap-sm{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #e45554;
+    opacity: 0.5;
+    top:0;
+    left:-3px;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInHalf;
+}
+
+
 .banner {
-    background: url("")
+    background: url("../images/banner_2.png") no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width:100%;
+    text-align: center;
+}
+
+.banner-title{
+    color: white;
+    font-size: 75px;
+    margin-top:53px;
+    /* text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.74); */
+}
+
+.banner-subtitle {
+    color: white;
+    font-weight: 900;
+    margin-top:20px;
+}
+
+.outer:before {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.inner{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.btn-banner{
+    border-radius: 32px;
+    background: #f20000;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 20px;
+    width: 150px;
+    margin: 20px auto 0 auto;
+}
+
+.btn-banner:hover{
+    background: white;
+    color:#f20000;
+}
+
+.bg-pink {
+    background: #e86969;
+}
+
+.text-white {
+    color: white;
+}
+
+.section-01{
+    background: #e86969;
+    color: white;
+}
+
+.section-02{
+    background: url("../images/bg_section_2.png");
+    color: #ce201f;
+}
+
+.section-03{
+    background: url("../images/bg_section_3.png");
+    text-align: center;
+    color: #e86969;
+    padding-top: 80px !important;
+}
+
+.section {
+    width: 100%;
+    height: 520px;
+    padding:30px;
+    box-sizing: border-box;
+}
+
+.section-title {
+    height: 122px;
+}
+
+.section-03 .section-title{
+    display: inline-block;
+}
+
+.section-01 .title-number{
+    /* color:white; */
+    font-size:95px;
+    font-weight: 900;
+    margin-right: 270px;
+    float: right;
+    position: relative;
+}
+
+.section-02 .title-number{
+    /* color:white; */
+    font-size:95px;
+    font-weight: 900;
+    margin-left: 270px;
+    float: left;
+    position: relative;
+}
+
+.section-03 .title-number{
+    font-size:95px;
+    font-weight: 900;
+    float: left;
+    position: relative;
+}
+
+.section-01 .title-number-one{
+    margin-bottom: 10px;
+    position: absolute;
+    right:60px;
+    top:-30px;
+}
+
+.section-02 .title-number-one{
+    margin-bottom: 10px;
+    position: absolute;
+    right:60px;
+    top:-30px;
+}
+
+.section-03 .title-number-one{
+    margin-bottom: 10px;
+    position: absolute;
+    right:60px;
+    top:-30px;
+    color: #ce201f;
+}
+
+.section-01 .title-text{
+    /* color:white; */
+    line-height: 122px;
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 65px;
+}
+
+.section-02 .title-text{
+    line-height: 122px;
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.section-03 .title-text {
+    line-height: 122px;
+    font-size: 50px;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.section-content {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 21px 80px 0 80px;
+    text-align: justify;
+    text-justify:inter-ideograph;
+}
+
+.section-01 .big-first-word{
+    font-size: 200%;
+}
+
+.section-01 .big-last-word{
+    font-size: 200%;
+}
+
+.img-eyes{
+    background: url("../images/img_eyes.png") no-repeat;
+    background-size: 100%;
+}
+
+.img-father{
+    background: url("../images/img_father.png") no-repeat;
+    background-size: 100%;
+}
+
+.img-business{
+    background: url("../images/img_business.png") no-repeat;
+    background-size: 100%;
+}
+
+.img-interest{
+    background: url("../images/img_interest.png") no-repeat;
+    background-size: 100%;
+}
+
+.section-02-card{
+    width: 100%;
+    height: 200px;
+}
+
+.section-02-card .card-img {
+    width: 200px;
+    text-align: center;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.section-02 .section-content{
+    margin: 45px auto 0 auto;
+}
+
+.card-title{
+    color: #ce201f;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Noto Sans TC' !important;
+    text-align: center;
+    margin:0;
+}
+
+.card-subtitle {
+    color: #ce201f;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Noto Sans TC' !important;
+    text-align: center;
+    margin:0;
+    margin-top:10px;
+}
+
+.section-03 .section-content {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.btn-watch-top-100-youtuber {
+    border: 2px solid #e86969;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
+.btn-watch-top-100-youtuber:hover{
+    color: white;
+    background: #e86969;
 }

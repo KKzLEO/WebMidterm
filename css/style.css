@@ -400,6 +400,10 @@ nav {
     padding-top:70px;
 }
 
+.news-card img{
+    width:100%;
+}
+
 .news-card .uk-panel{
     overflow:hidden;
     cursor: pointer;
@@ -640,6 +644,91 @@ footer{
     border:none;
     color:white;
 }
+
+.voting-banner{
+    background: #CE201F;
+    padding-top:70px;
+}
+
+.voting-banner-content{
+    padding-top:150px;
+    padding-bottom:150px;
+}
+
+.voting-banner-content p {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.voting-area{
+    width:100%;
+    /* height: 600px; */
+    margin-top:80px;
+}
+
+.voting-card{
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    border: 1px #DDD solid;
+    position: relative;
+    /* background: black; */
+}
+
+.voting-card-img{
+    width:120px;
+    height: 120px;
+    display: inline-block;
+}
+
+.voting-card-img:hover::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width:120px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    background-color: rgba(51,51,51,0.5);
+}
+
+.voting-card-votes {
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0;
+}
+
+.voting-card-img:hover .voting-card-votes{
+    opacity: 1;
+}
+
+.voting-card-content{
+    padding:10px 10px 10px 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.voting-card-title{
+    font-size:22px;
+    font-family:  'Noto Sans TC' !important;
+    font-weight: 300;
+}
+
+.voting-submit{
+    text-align: center;
+    margin:20px auto 0 auto;
+}
+
+
 
 
 @media (max-width:1110px){

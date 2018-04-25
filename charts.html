@@ -11,14 +11,36 @@
 </head>
 <body>
     <header>
+        <nav class="uk-container">
+            <div class="nav-logo to-home"></a></div>
+            <div class="nav-bar">
+                <ul class="uk-visible@m">
+                    <li class="to-home">　首頁　</li>
+                    <li class="to-news">最新消息</li>
+                    <li class="to-charts">人氣排行</li>
+                    <li class="to-top10video">影片排行</li>
+                    <li>　投票　</li>
+                    <li>周邊商品</li>
+                </ul>
+                <a class="btn-nav-toggle uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon></a>
+            </div>
+        </nav>
+        <ul class="nav-bar-sm hidden">
+            <li class="to-home">　首頁　</li>
+            <li class="to-news">最新消息</li>
+            <li class="to-charts">人氣排行</li>
+            <li class="to-top10video">影片排行</li>
+            <li>　投票　</li>
+            <li>周邊商品</li>
+        </ul>
     </header>
     <section class="content">
+        <!-- <div class= "uk-width-1-1 uk-visible banner">
+            <img src="./images/TOP100_text.png" class="banner-title">
+        </div> -->
         <div class="uk-container-small content-container">
+            
             <div class="uk-grid">
-
-                <div class= "uk-width-1-1 uk-visible banner">
-                    <img src="./images/TOP100_text.png" class="banner-title">
-                </div>
                 <!-- TOP1 -->
                 <div class= "uk-width-1-1 uk-visible top1-card ">
                     <div class="rank-banner-top1 hvr-fade"> 
@@ -32,7 +54,7 @@
                     </div>
                 </div> 
                 <!-- TOP2 -->
-                <div class= "uk-width-1-2 top2-card">
+                <div class= "uk-width-1-2@m uk-width-1-1 top2-card">
                     <div class="rank-banner"> 
                         <div class="rank-number">
                             <h2 class="rank-number-text"> 2 </h2>
@@ -40,7 +62,7 @@
                     </div>
                 </div> 
                 <!-- TOP3 -->
-                <div class= "uk-width-1-2 top3-card">
+                <div class= "uk-width-1-2@m uk-width-1-1 top3-card">
                     <div class="rank-banner rank-banner-top3"  > 
                         <div class="rank-number">
                             <h2 class="rank-number-text"> 3 </h2>
@@ -48,15 +70,15 @@
                     </div>
                 </div>
                 <!-- TOP2-text --> 
-                 <div class= "uk-width-1-2 rank-name">
+                 <div class= "uk-width-1-2@m uk-width-1-1 rank-name">
                     <h3 class="rank-name-text">蔡阿嘎</h2>
                 </div>
                 <!-- TOP3-text --> 
-                <div class= "uk-width-1-2 rank-name">
+                <div class= "uk-width-1-2@m uk-width-1-1 rank-name">
                     <h3 class="rank-name-text">阿滴英文</h2>
                 </div>
                 <!-- TOP4 -->
-                <div class= "uk-width-1-2 top4-card">
+                <div class= "uk-width-1-2@m uk-width-1-1 top4-card">
                     <div class="rank-banner rank-banner-top4"  > 
                         <div class="rank-number rank-number-top4">
                             <h2 class="rank-number-text rank-number-text-top4"> 4 </h2>
@@ -64,7 +86,7 @@
                     </div>
                 </div>
                 <!-- TOP5 -->
-                <div class= "uk-width-1-2 top4-card top5-background">
+                <div class= "uk-width-1-2@m uk-width-1-1 top4-card top5-background">
                     <div class="rank-banner rank-banner-top4"  > 
                         <div class="rank-number rank-number-top4">
                             <h2 class="rank-number-text rank-number-text-top4"> 5 </h2>
@@ -72,16 +94,16 @@
                     </div>
                 </div> 
                 <!-- TOP4-text --> 
-                 <div class= "uk-width-1-2 rank-name">
+                 <div class= "uk-width-1-2@m uk-width-1-1 rank-name">
                     <h3 class="rank-name-text">How Fun 如何爽</h2>
                 </div>
                 <!-- TOP5-text --> 
-                <div class= "uk-width-1-2 rank-name">
+                <div class= "uk-width-1-2@m uk-width-1-1 rank-name">
                     <h3 class="rank-name-text">壹加壹 ILLY and LEAN</h2>
                 </div>
 
                 <!-- TOP6 -->
-                <div class= "uk-width-1-2 top4-card top6-background">
+                <div class= "uk-width-1-2@m uk-width-1-1 top4-card top6-background">
                     <div class="rank-banner rank-banner-top4"  > 
                         <div class="rank-number rank-number-top4">
                             <h2 class="rank-number-text rank-number-text-top4"> 6 </h2>
@@ -89,7 +111,7 @@
                     </div>
                 </div> 
                 <!-- TOP6 -->
-                <div class= "uk-width-1-2 top4-card top7-background">
+                <div class= "uk-width-1-2@m uk-width-1-1 top4-card top7-background">
                     <div class="rank-banner rank-banner-top4"  > 
                         <div class="rank-number rank-number-top4">
                             <h2 class="rank-number-text rank-number-text-top4"> 7 </h2>
@@ -97,18 +119,89 @@
                     </div>
                 </div>
                 <!-- TOP6-text --> 
-                 <div class= "uk-width-1-2 rank-name">
+                 <div class= "uk-width-1-2@m uk-width-1-1 rank-name">
                     <h3 class="rank-name-text">白癡公主</h2>
                 </div>
                 <!-- TOP7-text --> 
-                <div class= "uk-width-1-2 rank-name">
+                <div class= "uk-width-1-2@m uk-width-1-1 rank-name">
                     <h3 class="rank-name-text">啾啾鞋</h2>
                 </div>  
             </div>
         </div>
     </section>
-    <footer>
-
+    <footer class="subscribe">
+        <h1 class="subscribe-title wow tada">訂閱他們</h1>
+        <h2 class="subscribe-subtitle wow tada">subscribe</h2>
+        <div class="uk-container uk-container-large vertical-align subscribe-list">
+            <div uk-grid class="wow fadeIn">
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
+                    <a target="_blank" href="//www.youtube.com/user/e84768131">這群人TGOP</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCVwSuEeMi-w92Hx3xKfq0iw">TGOP 這群人私生活</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCeB5UXWltaHtGoxkwGXLzpg">展榮展瑞 Keelong and Rays</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCJM_OTvzTrkZbYEq4GKVuOQ">Alina鄭茵聲</a>
+                    <a target="_blank" href="//www.youtube.com/user/kyoko38">蔡阿嘎</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCeo3JwE3HezUWFdVcehQk9Q">阿滴英文</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCGpNjY0Xq2GJLXh4OOX1LOA">滴妹</a>
+                    <a target="_blank" href="//www.youtube.com/user/fuckingtinyhippo">黃大謙</a>
+                    <a target="_blank" href="//www.youtube.com/user/TheLiuPei">the劉沛</a>
+                    <a target="_blank" href="//www.youtube.com/user/jaya8831529">廉傑克曼</a>
+                    <a target="_blank" href="//www.youtube.com/user/FroggyChiu">呱吉</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCj_z-Zeqk8LfwVxx0MUdL-Q">上班不要看 NSFW</a>
+                </div>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
+                    <a target="_blank" href="//www.youtube.com/user/louislee0602">放火 Louis</a>
+                    <a target="_blank" href="//www.youtube.com/user/RSPannie72127">魚乾</a>
+                    <a target="_blank" href="//www.youtube.com/user/jasonjason1124">HowFun</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UC24h-JBUHXT5HXIK_9cWOmQ">小玉</a>
+                    <a target="_blank" href="//www.youtube.com/user/JoemanStarCraft">Joeman</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCMy0L5Y-h0-s8t4XZs49gXw">解婕翎</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCqxRJpX52Q0nxcHf7hqdJMA">可可酒精</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCUy-lBPiJYWXTvfYHiCb_-A">黑羽</a>
+                    <a target="_blank" href="//www.youtube.com/user/oeurstudiolive">Kouku阿謙</a>
+                    <a target="_blank" href="//www.youtube.com/user/tolocat">老皮</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw">曹小歐</a>
+                    <a target="_blank" href="//www.youtube.com/user/KEVIN0204660">WACKYBOYS 反骨男孩</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCqAYPUHgXuzsNlYNIzItfAQ">在不瘋狂就等死 x 狂人娛樂</a>
+                </div>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
+                    <a target="_blank" href="//www.youtube.com/user/oeurxhichocolate">巧克力</a>
+                    <a target="_blank" href="//www.youtube.com/user/MrChesterccj">舞秋風</a>
+                    <a target="_blank" href="//www.youtube.com/user/nksh20434">路（RuSiRu）</a>
+                    <a target="_blank" href="//www.youtube.com/user/RedStonePoke">紅石口袋 RedStone Poke</a>
+                    <a target="_blank" href="//www.youtube.com/user/zionx25">菜喳</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCa7KELKe1u9mQ5jWMdIB-HQ">阿晋</a>
+                    <a target="_blank" href="//www.youtube.com/user/RoyzWIND">Royz羅伊</a>
+                    <a target="_blank" href="//www.youtube.com/user/astereasy">梅伯</a>
+                    <a target="_blank" href="//www.youtube.com/user/PanHuParty">胖虎</a>
+                    <a target="_blank" href="//www.youtube.com/user/sundayright">星期天</a>
+                    <a target="_blank" href="//www.youtube.com/user/coolmantsai">蔡哥</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCIS2CbcHBbA_Z-PKJUWLWzA">麥卡貝精華頻道</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCLW_SzI9txZvtOFTPDswxqg">木曜4超玩</a>
+                </div>
+                <div class="uk-width-1-4@m uk-width-1-2@s uk-width-1-1">
+                    <a target="_blank" href="//www.youtube.com/user/JasonXshow">星培Jasper</a>
+                    <a target="_blank" href="//www.youtube.com/user/Allen51channle">愛倫Allen</a>
+                    <a target="_blank" href="//www.youtube.com/user/chikigina">GINA HELLO!</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCIdhd_1spj49unBWx1fjS2A">聖結石Saint</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UC8MQLq2uFUa-HXHCVjHlc-Q">聖嫂Dodo</a>
+                    <a target="_blank" href="//www.youtube.com/user/mincow">古娃娃WawaKu</a>
+                    <a target="_blank" href="//www.youtube.com/user/ATienDai">白癡公主</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCeDhoBQvd33wtNXpQL-RnSw">白癡公主超哥</a>
+                    <a target="_blank" href="//www.youtube.com/user/sawgameboy">尤汐伯夷</a>
+                    <a target="_blank" href="//www.youtube.com/channel/UCmEwvn6K7ZwZMJRGtOwTABg">SnG-超哥x伯夷</a>
+                    <a target="_blank" href="//www.youtube.com/user/anjouclever">安啾咪</a>
+                    <a target="_blank" href="//www.youtube.com/user/phan11171117">鬼鬼</a>
+                    <a target="_blank" href="//www.youtube.com/user/charlie615119">阿神</a>
+                    <a target="_blank" href="//www.youtube.com/user/k9330205">蹲蹲</a>
+                </div>
+            </div>
+        </div>
+        
     </footer>
 </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
 </html>

@@ -43,6 +43,14 @@ $(".to-news").click(function(){
     window.location.href = './news.html';
 });
 
+$(".to-charts").click(function(){
+    window.location.href = './charts.html';
+});
+
+$(".to-top10video").click(function(){
+    window.location.href = './top10video.html';
+});
+
 $(".btn-nav-toggle").click(function(){
     $(".nav-bar-sm").toggle();
 });
